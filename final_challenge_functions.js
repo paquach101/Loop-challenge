@@ -1,6 +1,6 @@
 function CheckPrime(numbers) {
     if (numbers < 2 || numbers % 1 !== 0) {
-        return "not prime nor a whole number"
+        return "not prime nor a whole number";
     }
     if (numbers > 3) {
         for (i = 2; i <= numbers / 2; i++) {
